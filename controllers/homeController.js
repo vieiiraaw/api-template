@@ -1,5 +1,7 @@
-function Home(req, res) {
-  res.send('Hi!');
-}
+exports.get = (req, res) => {
+  res.send('Hi! I hate c');
+};
 
-module.exports = Home;
+exports.post = (req, res) => {
+  res.send('Hi!');
+};
